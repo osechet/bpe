@@ -1,8 +1,12 @@
 :host {
-  display: flex;
-  flex-direction: row;
   min-height: 100vh;
-  height: auto;
+  height: 100vh;
+  /* display: flex; */
+  /* flex-direction: column; */
+}
+
+mat-drawer-container {
+  height: 100vh;
 }
 
 mat-drawer {
