@@ -3,14 +3,16 @@
     <layers class=layers></layers>
   </mat-drawer>
 
-  <mat-toolbar color="primary">
-    <mat-toolbar-row>
-      <button mat-icon-button aria-label="Menu" (click)="drawer.toggle()">
-        <mat-icon>menu</mat-icon>
-      </button>
-      <span>Blueprint&#179;</span>
-    </mat-toolbar-row>
-  </mat-toolbar>
+  <div class="content">
+    <mat-toolbar color="primary">
+      <mat-toolbar-row>
+        <button mat-icon-button aria-label="Menu" (click)="drawer.toggle()">
+          <mat-icon>menu</mat-icon>
+        </button>
+        <span>Blueprint&#179;</span>
+      </mat-toolbar-row>
+    </mat-toolbar>
 
-  <grid class="grid"></grid>
+    <grid class="grid"></grid>
+  </div>
 </mat-drawer-container>

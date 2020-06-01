@@ -4,7 +4,7 @@ import { Application, Container, Graphics } from 'pixi.js';
 @Component({
   selector: 'grid',
   template: '',
-  styleUrls: [ './grid.component.css' ]
+  styleUrls: [ './grid.component.scss' ]
 })
 export class GridComponent implements AfterViewInit  {
   public app: Application;
